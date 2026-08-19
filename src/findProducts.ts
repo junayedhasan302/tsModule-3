@@ -3,8 +3,8 @@ interface Product{
     price: number,
     category: string
 }
-const findProducts = (products:Product[], category:string):Product => {
-    const categoryProducts: Product[] = products.filter((product)=>product.category===category);
+const findProducts = (products:Product[], category:string):Product[] => {
+    const categoryProducts: Product[] = products.filter((product:Product)=>product.category===category);
     return categoryProducts;
 }
 
