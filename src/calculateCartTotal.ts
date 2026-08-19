@@ -3,7 +3,7 @@ const calculateCartTotal=(products: Product[]): number=> {
     // for(let i=0; i<products.length; i++){
     //     sum+=products[i].price;
     // } return sum;
-    return products.reduce((sum, product) => sum + product.price, 0);
+    return products.reduce((sum, item) => sum + item.price, 0);
     
 }
 type Product = {
