@@ -9,14 +9,7 @@ console.log(getAgeRatingAccess(10)); // "E10+ (Everyone 10+)"
 console.log(getAgeRatingAccess(15)); // "T (Teen)" 
 console.log(getAgeRatingAccess(20)); // "M (Mature)" 
 
-
-
-
-
-
-
-
-
+// Conditions: 
 // Age  Access Level 
 // Below 7  "E (Everyone)" 
 // 7–12  "E10+ (Everyone 10+)" 
