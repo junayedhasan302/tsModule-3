@@ -20,6 +20,5 @@ const calculateTotalListeningTime = (tracks: Track[]): number => {
   }
   return sum;
 };
-
 console.log(calculateTotalListeningTime(tracks1));
 console.log(calculateTotalListeningTime(tracks2));
