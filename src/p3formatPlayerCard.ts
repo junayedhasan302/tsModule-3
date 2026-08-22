@@ -14,6 +14,5 @@ function formatPlayerCard(player: Player): string {
 
 console.log(formatPlayerCard(playerX));
 
-
 // Expected output: 
 // "ShadowByte is a Level 42 player from Asia." 
